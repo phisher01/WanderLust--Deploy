@@ -8,7 +8,7 @@ const {validateListing}=require("../middleware.js");
 const listingContoller=require("../controllers/listing.js");
 const {storage}=require("../cloudConfig.js");
 const multer=require("multer");
-const upload=multer({storage });    // multer will store saved files in cloudinary's storage    
+const upload=multer({storage });    // multer will store saved files in cloudinary's storage        
 
 
 
