@@ -29,7 +29,7 @@ main(). then(()=>{
 
 }).catch((err)=>{
     console.log(err);
-    console.log("Error in connecting);
+    console.log("Error in connecting");
 }); 
 
 async function main(){
